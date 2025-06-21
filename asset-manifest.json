@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Healthy_front/static/css/main.3e9b37a9.css",
+    "main.js": "/Healthy_front/static/js/main.61927070.js",
+    "index.html": "/Healthy_front/index.html",
+    "main.3e9b37a9.css.map": "/Healthy_front/static/css/main.3e9b37a9.css.map",
+    "main.61927070.js.map": "/Healthy_front/static/js/main.61927070.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e9b37a9.css",
+    "static/js/main.61927070.js"
+  ]
+}
