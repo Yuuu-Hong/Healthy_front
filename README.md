@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Documentation
 
 This is the frontend part of the Flask Fullstack Application. It is built using React and provides a user interface for interacting with the backend APIs.
@@ -37,3 +38,6 @@ Feel free to submit issues or pull requests for any improvements or bug fixes.
 ## License
 
 This project is licensed under the MIT License.
+=======
+# Healthy_front
+>>>>>>> 3390ce35ecc693bf38dba921c50b57e5971c6530
