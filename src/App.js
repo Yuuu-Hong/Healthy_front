@@ -11,6 +11,12 @@ function App() {
         <Router>
             <div className="App">
                 <h1>User Management System</h1>
+                <nav>
+                    <a href="#/login">Login</a> |
+                    <a href="#/register">Register</a> |
+                    <a href="#/users">User List</a> |
+                    <a href="#/user-form">User Form</a>
+                </nav>
                 <Routes>
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
