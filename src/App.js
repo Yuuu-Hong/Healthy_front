@@ -16,9 +16,7 @@ function App() {
                     <Route path="/register" element={<Register />} />
                     <Route path="/users" element={<UserList />} />
                     <Route path="/user-form" element={<UserForm />} />
-                    <Route path="/" exact>
-                        <h2>Welcome to the User Management System</h2>
-                    </Route>
+                    <Route path="/" element={<h2>Welcome to the User Management System</h2>} />
                 </Routes>
             </div>
         </Router>
