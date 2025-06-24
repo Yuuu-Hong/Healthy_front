@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { API_BASE_URL } from '../config';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -9,7 +10,7 @@ const Login = () => {
         e.preventDefault();
         setError(null);
 
-        const response = await fetch('/api/login', {
+        const response = await fetch(`${API_BASE_URL}/api/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 const UserForm = ({ userId, onSubmit }) => {
     const [userData, setUserData] = useState({
@@ -11,7 +12,7 @@ const UserForm = ({ userId, onSubmit }) => {
     useEffect(() => {
         if (userId) {
             // Fetch user data for editing
-            fetch(`/api/users/${userId}`)
+            fetch(`${API_BASE_URL}/api/users/${userId}`)
                 .then(response => response.json())
                 .then(data => setUserData(data))
                 .catch(error => console.error('Error fetching user data:', error));

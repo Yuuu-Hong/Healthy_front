@@ -4,7 +4,7 @@ const UserList = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        fetch('/api/users')
+        fetch('${API_BASE_URL}/api/users')
             .then(response => response.json())
             .then(data => setUsers(data))
             .catch(error => console.error('Error fetching users:', error));
